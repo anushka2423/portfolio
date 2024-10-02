@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -125,7 +125,7 @@ const public_key = "UZBYWlsxmFADkV1bJ"
 	      <button
             type='button'
             className='bg-red-900 mt-8 font-medium py-3 px-8 rounded-xl outline-none w-fit text-secondary font-bold shadow-md shadow-primary'
-            onClick={() => window.open("https://drive.google.com/file/d/15zZlzJXqb2EeFigJBcaU-RNVM-fJlVpp/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1McyBu9lRH3xbO3grntiGezBfwVnCueWS/view?usp=sharing", "_blank")}
           >
              
            {"My Resume"}
