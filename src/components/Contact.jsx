@@ -15,7 +15,7 @@ const Contact = () => {
     message: "",
   });
 const service = "service_67qm0z5"
-const template = "template_ygfgjqb"
+const template = "template_5h41b98"
 const public_key = "P8e-SN53Gi_BQvD-k"
   const [loading, setLoading] = useState(false);
 
