@@ -14,9 +14,9 @@ const Contact = () => {
     email: "",
     message: "",
   });
-const service = "service_l4672mo"
-const template = "template_9y4jvao"
-const public_key = "UZBYWlsxmFADkV1bJ"
+const service = "service_67qm0z5"
+const template = "template_ygfgjqb"
+const public_key = "P8e-SN53Gi_BQvD-k"
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -36,10 +36,10 @@ const public_key = "UZBYWlsxmFADkV1bJ"
     emailjs
       .send(`${service}`,`${template}`,
 				{
-					from_name: form.email,
+					from_name: form.name,
 					to_name: "Anushka Srivastava",
 					from_email: form.email,
-					to_email: "anushkasrivastava1124@gmail.com",
+					to_email: "anushkasrivastava146@gmail.com",
 					message: form.message,
 				},
 				`${public_key}`
@@ -58,7 +58,7 @@ const public_key = "UZBYWlsxmFADkV1bJ"
         (error) => {
           setLoading(false);
           console.error(error);
-
+          console.error("Error sending email:", error.text);
           alert("Ahh, something went wrong. Please try again. 😥");
         }
       );
@@ -122,7 +122,7 @@ const public_key = "UZBYWlsxmFADkV1bJ"
           </button>
           
         </form>
-	      <button
+     <button
             type='button'
             className='bg-red-900 mt-8 font-medium py-3 px-8 rounded-xl outline-none w-fit text-secondary font-bold shadow-md shadow-primary'
             onClick={() => window.open("https://drive.google.com/file/d/1-TiPfC6vcqHR9XM_lLbm-cA-nlzahqmk/view?usp=drive_link", "_blank")}
