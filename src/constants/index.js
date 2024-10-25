@@ -102,10 +102,10 @@ const technologies = [
 const experiences = [
   {
     title: "Fullstack Intern",
-    company_name: "WebNinjaz",
+    company_name: "Diggaj Coders",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "June 2024 - current",
+    date: "April 2024 - September 2024",
     points: [
       "Contributed to the development of a Ed-Tech Platform",
       "Implemented interactive features and dynamic elements with React.js to enhance user engagement.:",
@@ -118,9 +118,9 @@ const experiences = [
     company_name: "Self Employed",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "April 2024 - June 2024",
+    date: "March 2024",
     points: [
-      "Developing and maintaining web applications using React.js, antdesign and other related technologies.",
+      "Developing and maintaining web applications using React.js, Node.js and other related technologies.",
       "Collaborating with client and content creator to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Working on SEO and other user-traffic factors.",
