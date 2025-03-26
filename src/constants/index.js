@@ -102,15 +102,15 @@ const technologies = [
 const experiences = [
   {
     title: "Fullstack Intern",
-    company_name: "Diggaj Coders",
+    company_name: "Plutonic Services Pvt. Ltd. (On-site)",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "April 2024 - September 2024",
+    date: "December 2024 - Current",
     points: [
-      "Contributed to the development of a Ed-Tech Platform",
-      "Implemented interactive features and dynamic elements with React.js to enhance user engagement.:",
-      "Ensured a responsive design across various devices using antd's grid system and components.",
-      "Collaborated with the development team, participating in code reviews and addressing bugs for optimization.",
+      "Implementing responsive design and ensuring cross-browser compatibility",
+      "Developed and optimized HRMS & Vendor Management Systems using React.js and Ant Design, enhancing functionality and user experience",
+      "Implemented a dynamic theme feature, improving user engagement by allowing customizable UI preferences.",
+      "Built responsive and cross-browser-compatible web applications, ensuring seamless accessibility across devices",
     ],
   },
   {
@@ -120,9 +120,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2024",
     points: [
-      "Developing and maintaining web applications using React.js, Node.js and other related technologies.",
+      "Contributed to the development of a Ed-Tech Platform",
       "Collaborating with client and content creator to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Collaborated with the development team, participating in code reviews and addressing bugs for optimization.",
       "Working on SEO and other user-traffic factors.",
     ],
   },
