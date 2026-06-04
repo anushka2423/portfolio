@@ -48,10 +48,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm an engineering student skilled in MERN stack developement with a strong background in Java 
-        programming. I love working with technology and solving problems. I specialize in creating powerful 
-        and efficient web applications using MongoDB, Express, React, and Node.js. I'm always eager to learn
-        and grow in the software development field. Let's work together to bring your ideas to life!
+        Software Engineer with experience building and operating production systems across backend and
+        frontend layers. Strong in data structures, APIs, performance optimization, and debugging. I work
+        with Node.js, Express, React, PostgreSQL, Redis, and AWS — from workflow orchestration and REST
+        APIs to scalable UIs. Based in Noida, UP. Open to collaborating on challenging engineering problems.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

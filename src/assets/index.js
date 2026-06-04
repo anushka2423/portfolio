@@ -12,9 +12,11 @@ import vibeclub from "./vibeclub.png";
 import close from "./close.svg";
 import certificatejs from "./certificatejs.png" ;
 import certificatereactb from "./certificatereactb.png" ;
-import certificatefcc from "./certificatefcc.png" ;
+import certificate from "./certificate.webp" ;
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import postgresql from "./tech/postgresql.png";
+import aws from "./tech/aws.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -32,10 +34,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import linkedin from "./linkedin.png";
-import dashboard from "./dashboard.png";
+import flowgenie from "./flowgenie.png";
 import rapidr from "./rapidr.png"
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import leetcode_extension from "./leetcode_extension.png";
 // import tripguide from "./tripguide.png";
 import pokemon from "./pokemon.png";
 import ecommerce from "./ecommerce.png";
@@ -51,7 +53,7 @@ export {
   web,
   certificatejs,
   certificatereactb,
-  certificatefcc,
+  certificate,
   github,
   github1,
   vibeclub,
@@ -60,10 +62,12 @@ export {
   close,
   css,
   docker,
+  postgresql,
+  aws,
   figma,
   git,
   html,
-  dashboard,
+  flowgenie,
   rapidr,
   javascript,
   mongodb,
@@ -78,7 +82,7 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
+  leetcode_extension,
   // tripguide,
   pokemon,
   ecommerce,

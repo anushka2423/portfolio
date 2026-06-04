@@ -33,8 +33,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Anushka</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop static and <br className='sm:block hidden' />
-            dynamic websites.
+            Software Engineer building <br className='sm:block hidden' />
+            production backend & frontend systems.
           </p>
         </div>
       </div>
@@ -48,7 +48,7 @@ const Hero = () => {
           <div  className='w-3/4 sm:w-1/4 pt-12 mt-12'>
           <img
             src='https://cdn3d.iconscout.com/3d/premium/thumb/web-developer-4506461-3738664.png'
-            alt='Web Developer'
+            alt='Software Developer'
             className='pt-12 mt-12'
           />
           </div>

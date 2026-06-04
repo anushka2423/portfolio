@@ -80,10 +80,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project has link to the hosted website. These projects reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Personal projects that reflect production-grade engineering: a workflow
+          orchestration platform (FlowGenie) and a LeetCode Chrome extension with
+          spoiler-safe AI mentoring and submission-based revisit detection. Each card
+          links to the live product.
         </motion.p>
       </div>
 
