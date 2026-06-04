@@ -20,6 +20,7 @@ import {
   flowgenie,
   leetcode_extension,
   caclouddesk,
+  ozii,
 } from "../assets";
 
 export const navLinks = [
@@ -260,6 +261,32 @@ const projects = [
     source_code_link:
       "https://chromewebstore.google.com/detail/leetcode-assistant/lgmdpkifkfbockilgamhmkcaapkffcnb",
   },
+  {
+    name: "OZii",
+    isCompanyProject: true,
+    description:
+      "Multi-tenant office and HR management platform that streamlines HR operations, payroll, recruitment, task management, performance tracking, travel desk processes, and document management through a unified system. Contributed to core platform features, workflow automation, and REST APIs while optimizing database performance and asynchronous processing. Designed and implemented the Document Management module end-to-end, developing both frontend and backend functionality for secure document storage, organization, and access across tenant organizations.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "REST_APIs",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: ozii,
+    source_code_link: "https://ozii.in/",
+  },
 ];
 
 const certificates = [
@@ -304,6 +331,28 @@ const certificates = [
     image: certificatejs,
     source_code_link:
       "https://certificate.givemycertificate.com/c/31cbba93-ae6f-4b94-a460-7d4e8c0ce3f9",
+  },
+  {
+    name: "Udemy",
+    description: "Generative AI Skillpath",
+    tags: [
+      {
+        name: "",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "",
+        color: "green-text-gradient",
+      },
+      {
+        name: "",
+        color: "orange-text-gradient",
+      },
+    ],
+    image:
+      "https://udemy-certificate.s3.amazonaws.com/image/UC-1226d4ca-8e19-4cbc-a93a-253db6e448bf.jpg",
+    source_code_link:
+      "https://www.udemy.com/certificate/UC-1226d4ca-8e19-4cbc-a93a-253db6e448bf/",
   },
 ];
 
