@@ -125,7 +125,7 @@ const public_key = "P8e-SN53Gi_BQvD-k"
      <button
             type='button'
             className='bg-red-900 mt-8 font-medium py-3 px-8 rounded-xl outline-none w-fit text-secondary font-bold shadow-md shadow-primary'
-            onClick={() => window.open("https://drive.google.com/file/d/1drcK_hrKuhc6q43mBEWU2b_4VLJoCyON/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1_NlnTvX4oOz-1ff6S3vl_OCaYreI9uTV/view", "_blank")}
           >
              
            {"My Resume"}
