@@ -38,6 +38,7 @@ import flowgenie from "./flowgenie.png";
 import rapidr from "./rapidr.png"
 import carrent from "./carrent.png";
 import leetcode_extension from "./leetcode_extension.png";
+import caclouddesk from "./caclouddesk.png";
 // import tripguide from "./tripguide.png";
 import pokemon from "./pokemon.png";
 import ecommerce from "./ecommerce.png";
@@ -83,6 +84,7 @@ export {
   tesla,
   carrent,
   leetcode_extension,
+  caclouddesk,
   // tripguide,
   pokemon,
   ecommerce,

@@ -19,6 +19,7 @@ import {
   certificate,
   flowgenie,
   leetcode_extension,
+  caclouddesk,
 } from "../assets";
 
 export const navLinks = [
@@ -206,6 +207,32 @@ const projects = [
     ],
     image: flowgenie,
     source_code_link: "http://flowgenie.live",
+  },
+  {
+    name: "CA Cloud Desk",
+    isCompanyProject: true,
+    description:
+      "Enterprise business management platform that integrates CRM, HRMS, task management, billing, workflow automation, and document management into a single solution. Contributed to core platform features, large-scale task and workflow data migrations, REST APIs, and business process automation.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "REST_APIs",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: caclouddesk,
+    source_code_link: "https://caclouddesk.com",
   },
   {
     name: "AI-Powered LeetCode Assistant",
