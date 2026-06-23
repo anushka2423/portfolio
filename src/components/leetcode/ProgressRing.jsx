@@ -29,12 +29,9 @@ const ProgressRing = ({ stats }) => {
     easySolved,
     mediumSolved,
     hardSolved,
-    attempting,
-    percentile,
   } = stats;
 
   const solvedCount = useCountUp(totalSolved, 1.6);
-  const percentileCount = useCountUp(percentile, 1.8, 1);
 
   const segments = [
     { count: easySolved, color: "#2dd4bf", glow: "rgba(45, 212, 191, 0.45)" },
@@ -157,14 +154,7 @@ const ProgressRing = ({ stats }) => {
 
           <div className='mt-6 space-y-2 text-center'>
             <p className='text-secondary text-[14px]'>
-              Currently Attempting:{" "}
-              <span className='text-white font-semibold'>{attempting}</span>
-            </p>
-            <p className='text-secondary text-[14px]'>
-              <span className='text-white font-bold text-[18px]'>
-                {percentileCount.value}
-              </span>{" "}
-              Percentile
+              <span className='text-white font-semibold'>{"Building scalable products with clean architecture 👩‍💻"}</span>
             </p>
           </div>
         </div>

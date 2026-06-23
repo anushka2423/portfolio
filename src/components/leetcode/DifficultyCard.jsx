@@ -31,7 +31,6 @@ const DifficultyCard = ({ difficulty, solved, total, index }) => {
   const styles = DIFFICULTY_STYLES[difficulty];
   const percentage = total > 0 ? (solved / total) * 100 : 0;
   const solvedCount = useCountUp(solved, 1.3);
-  const percentCount = useCountUp(percentage, 1.5, 1);
 
   return (
     <motion.div
@@ -49,9 +48,6 @@ const DifficultyCard = ({ difficulty, solved, total, index }) => {
             <h4 className={`text-[18px] font-bold ${styles.titleClass}`}>
               {styles.label}
             </h4>
-            <span className='text-secondary text-[13px] font-medium'>
-              {percentCount.value}%
-            </span>
           </div>
 
           <p className='mt-2 text-white text-[22px] font-bold tracking-tight'>

@@ -68,12 +68,6 @@ export const transformProgressResponse = (data) => {
     return acc;
   }, {});
 
-  const attempting = DIFFICULTIES.reduce(
-    (sum, difficulty) =>
-      sum + getCountByDifficulty(numFailedQuestions, difficulty),
-    0
-  );
-
   const totalSolved = DIFFICULTIES.reduce(
     (sum, difficulty) => sum + difficultyStats[difficulty].solved,
     0
@@ -93,8 +87,6 @@ export const transformProgressResponse = (data) => {
     mediumTotal: difficultyStats.MEDIUM.total,
     hardSolved: difficultyStats.HARD.solved,
     hardTotal: difficultyStats.HARD.total,
-    attempting,
-    percentile: progress.totalQuestionBeatsPercentage ?? 0,
   };
 };
 
