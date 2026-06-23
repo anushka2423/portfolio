@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import Certifications from "./components/Certifications";
+import LeetCodeSection from "./components/leetcode/LeetCodeSection";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <LeetCodeSection />
         <Experience />
         <Tech />
         <Works id="Projects" />
