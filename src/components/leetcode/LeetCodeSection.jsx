@@ -5,7 +5,7 @@ import { getProfileUrl } from "../../data/leetcode";
 import { styles } from "../../styles";
 import { SectionWrapper } from "../../hoc";
 import useLeetCodeData from "../../hooks/useLeetCodeData";
-import { fadeIn, textVariant } from "../../utils/motion";
+import { fadeIn, staggerContainer, textVariant } from "../../utils/motion";
 import DifficultyCard from "./DifficultyCard";
 import ProgressRing from "./ProgressRing";
 import RecentProblems from "./RecentProblems";
@@ -66,7 +66,12 @@ const LeetCodeContent = () => {
   ];
 
   return (
-    <>
+    <motion.div
+      variants={staggerContainer(0.1, 0.1)}
+      initial='hidden'
+      whileInView='show'
+      viewport={{ once: true, amount: 0.15 }}
+    >
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Problem Solving</p>
         <div className='flex items-center gap-3'>
@@ -114,7 +119,7 @@ const LeetCodeContent = () => {
           <RecentProblems problems={recentProblems} />
         </div>
       </motion.div>
-    </>
+    </motion.div>
   );
 };
 
